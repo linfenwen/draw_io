@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T01:58:54.853Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="6ryXVjAg3yXQ_Wq3VlvY" type="github"><diagram id="o6NNyn_IoVE-6ZNWb1Fd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-20T02:57:43.783Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qa9HcHy2b2Vp7QQ-uxSU" version="14.6.13" type="github">
+  <diagram id="o6NNyn_IoVE-6ZNWb1Fd" name="Page-1">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-6" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;" vertex="1" parent="1">
+          <mxGeometry x="358" y="60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Process_Explorer.svg;" vertex="1" parent="1">
+          <mxGeometry x="130" y="92" width="70" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-9" value="Un-Trusted Process" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="80" height="54.4" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-10" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.client_application" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-11" value="Trusted Process" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.application_windows;" vertex="1" parent="1">
+          <mxGeometry x="40" y="579.24" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="559.24" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-15" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-14">
+          <mxGeometry width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-16" value="a.txt.nxl" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#005700;fillColor=#008a00;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.file_key;fontColor=#ffffff;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-14">
+          <mxGeometry x="85" y="36.74000000000001" width="46" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-17" value="a.txt" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-14">
+          <mxGeometry x="20" y="35" width="45.45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="559.24" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-1" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-18">
+          <mxGeometry width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-2" value="a.txt.nxl" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#005700;fillColor=#008a00;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.file_key;fontColor=#ffffff;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-18">
+          <mxGeometry x="85" y="36.74000000000001" width="46" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-3" value="a.txt" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-18">
+          <mxGeometry x="20" y="35" width="45.45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-12" value="" style="endArrow=classic;html=1;entryX=0.022;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n2U3SD2r29fCCjU7_Q8r-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="632" as="sourcePoint" />
+            <mxPoint x="220" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-21" value="delete a.txt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147" y="612" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="280" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-28" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-27">
+          <mxGeometry width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-29" value="a.txt.nxl" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#005700;fillColor=#008a00;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.file_key;fontColor=#ffffff;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-27">
+          <mxGeometry x="85" y="36.74000000000001" width="46" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-30" value="a.txt" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-27">
+          <mxGeometry x="20" y="35" width="45.45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-31" value="" style="endArrow=classic;html=1;entryX=0.022;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n2U3SD2r29fCCjU7_Q8r-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="352.76" as="sourcePoint" />
+            <mxPoint x="220" y="353.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-32" value="delete a.txt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="147" y="332.76" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-24" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="147.86" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
