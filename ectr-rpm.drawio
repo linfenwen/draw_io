@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T02:57:43.783Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qa9HcHy2b2Vp7QQ-uxSU" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T03:44:31.868Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6OLfa3Y4Djh2TQDSFzo1" version="14.6.13" type="github">
   <diagram id="o6NNyn_IoVE-6ZNWb1Fd" name="Page-1">
-    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="10" y="90" width="50" height="32" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-11" value="Trusted Process" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.application_windows;" vertex="1" parent="1">
-          <mxGeometry x="40" y="579.24" width="80" height="80" as="geometry" />
+          <mxGeometry x="40" y="865.24" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-14" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="570" y="559.24" width="147.86" height="120" as="geometry" />
+          <mxGeometry x="570" y="845.24" width="147.86" height="120" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-15" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-14">
           <mxGeometry width="147.86" height="120" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="20" y="35" width="45.45" height="56" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-18" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="240" y="559.24" width="147.86" height="120" as="geometry" />
+          <mxGeometry x="240" y="845.24" width="147.86" height="120" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-1" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-18">
           <mxGeometry width="147.86" height="120" as="geometry" />
@@ -45,12 +45,12 @@
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-12" value="" style="endArrow=classic;html=1;entryX=0.022;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n2U3SD2r29fCCjU7_Q8r-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="632" as="sourcePoint" />
-            <mxPoint x="220" y="633" as="targetPoint" />
+            <mxPoint x="120" y="918" as="sourcePoint" />
+            <mxPoint x="220" y="919" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-21" value="delete a.txt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="147" y="612" width="70" height="20" as="geometry" />
+          <mxGeometry x="147" y="898" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-27" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="240" y="280" width="147.86" height="120" as="geometry" />
@@ -75,6 +75,60 @@
         </mxCell>
         <mxCell id="n2U3SD2r29fCCjU7_Q8r-24" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
           <mxGeometry x="570" y="280" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-33" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.007;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n2U3SD2r29fCCjU7_Q8r-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-34" value="a.txt will be deleted&lt;br&gt;a.txt.nxl will be deleted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="396" y="318.76" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-35" value="Un-Trusted Process" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="80" height="54.4" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="520" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-37" value="RPM Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-36">
+          <mxGeometry width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-38" value="a.txt.nxl" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#005700;fillColor=#008a00;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.file_key;fontColor=#ffffff;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-36">
+          <mxGeometry x="85" y="36.74000000000001" width="46" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-39" value="a.txt" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/File.svg;" vertex="1" parent="n2U3SD2r29fCCjU7_Q8r-36">
+          <mxGeometry x="20" y="35" width="45.45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-57" value="copy a.txt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="566" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-46" value="Normal Folder" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="147.86" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-48" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/File.svg;autosize=0;labelBorderColor=#66FFB3;imageBackground=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="84.55000000000001" y="190" width="45.45" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-58" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="193" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-59" value="a.txt" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/google-suits-1/32/7_docs_document_file_data_google_suits-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="549.2" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-56" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="587.2" as="sourcePoint" />
+            <mxPoint x="254" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-60" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=-0.014;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="n2U3SD2r29fCCjU7_Q8r-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="589" as="sourcePoint" />
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2U3SD2r29fCCjU7_Q8r-61" value="ACCESS DENIDED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="560" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
