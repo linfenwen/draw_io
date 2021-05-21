@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T08:50:14.420Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="DmA_nKRhTb7enOI6UOfT" version="14.6.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:15:28.305Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dfDid2iefRstVbwCzf4y" version="14.6.13" type="github" pages="6">
   <diagram id="o6NNyn_IoVE-6ZNWb1Fd" name="Page-1">
     <mxGraphModel dx="1422" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -406,7 +406,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DPfjs0EcaI1xPxXf5vxl" name="Page-5">
+  <diagram id="DPfjs0EcaI1xPxXf5vxl" name="Page-5-1">
     <mxGraphModel dx="1422" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="lCXhdvk04ypBz417QvPm-0" />
@@ -472,6 +472,77 @@
           <mxGeometry x="370" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="lCXhdvk04ypBz417QvPm-22" value="1. The trusted process (RPM behavior will be changed) no matter run on ECTR or not&lt;br&gt;2. The trusted process need call extra API to delete .nxl file" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="lCXhdvk04ypBz417QvPm-18">
+          <mxGeometry x="490" width="290" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v0z7YUQveBLBB8Wz0RzO" name="Page-5-2">
+    <mxGraphModel dx="1422" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="uvlaSlCQrXR-2aM9I9yn-0" />
+        <mxCell id="uvlaSlCQrXR-2aM9I9yn-1" parent="uvlaSlCQrXR-2aM9I9yn-0" />
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-0" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="uvlaSlCQrXR-2aM9I9yn-1">
+          <mxGeometry x="50" y="80" width="780" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-0">
+          <mxGeometry width="780" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-2" value="Solution" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-1">
+          <mxGeometry width="133" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-3" value="Condition" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-1">
+          <mxGeometry x="133" width="237" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-4" value="Code Change" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-1">
+          <mxGeometry x="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-5" value="Affect" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-1">
+          <mxGeometry x="490" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-6" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-0">
+          <mxGeometry y="40" width="780" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-7" value="Process" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-6">
+          <mxGeometry width="133" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-8" value="1. Process need know run on ECTR or not&lt;br&gt;2. Need RMX pass parameter&lt;br&gt;3. Like SolidWorks, Creo will co-work with several different processes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-6">
+          <mxGeometry x="133" width="237" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-9" value="&lt;span&gt;1. RMX&lt;br&gt;2. RMDSDK&lt;br&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span&gt;nxrmserv&lt;br&gt;4. nxrmdrvlib&lt;br&gt;&lt;/span&gt;&lt;span&gt;5. nxrmfltman&lt;br&gt;6. nxrmflt&lt;br&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-6">
+          <mxGeometry x="370" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-10" value="1. Just the specify process" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-6">
+          <mxGeometry x="490" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-11" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-0">
+          <mxGeometry y="140" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-12" value="Folder" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-11">
+          <mxGeometry width="133" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-13" value="1. IT config" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-11">
+          <mxGeometry x="133" width="237" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-14" value="1. nxrmserv&lt;br&gt;2. nxrmdrvlib&lt;br&gt;3. nxrmfltman&lt;br&gt;4. nxrmflt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-11">
+          <mxGeometry x="370" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-15" value="1. When the process access this folder" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-11">
+          <mxGeometry x="490" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-16" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-0">
+          <mxGeometry y="250" width="780" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-17" value="Tursted, Un-Trusted" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-16">
+          <mxGeometry width="133" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-18" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-16">
+          <mxGeometry x="133" width="237" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-19" value="1. nxrmflt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-16">
+          <mxGeometry x="370" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaSUOJuMikFfq8Q3Nn1-20" value="1. The trusted process (RPM behavior will be changed) no matter run on ECTR or not&lt;br&gt;2. The trusted process need call extra API to delete .nxl file" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;" vertex="1" parent="BBaSUOJuMikFfq8Q3Nn1-16">
           <mxGeometry x="490" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
