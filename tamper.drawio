@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T08:50:18.399Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BcA3d0ISqkwCv5mecJbw" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-04T08:59:33.606Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="HJzIDIFhYzzlGWpE2dMp" version="14.7.3" type="github" pages="2">
   <diagram id="kEl3cbJcu_3AWRkWCvuC" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,6 +199,15 @@
               <mxPoint x="400" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CqMN7jEW21CeQr7TeeHq-57" value="nl_tamper_lib" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CqMN7jEW21CeQr7TeeHq-1">
+          <mxGeometry x="200" y="860" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CqMN7jEW21CeQr7TeeHq-58" value="nlTamperproofConfig.dll" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CqMN7jEW21CeQr7TeeHq-1">
+          <mxGeometry x="201" y="920" width="159" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CqMN7jEW21CeQr7TeeHq-59" value="nl_tamper_plugin.dll" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffffff;" vertex="1" parent="CqMN7jEW21CeQr7TeeHq-1">
+          <mxGeometry x="440" y="810" width="200" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
