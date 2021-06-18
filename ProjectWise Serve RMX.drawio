@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T05:56:26.417Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="o-aywdOZ-yeVBt0nuHxv" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-18T05:57:38.262Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="xDAEbSaUSu_LlAJGk2Gt" version="14.8.0" type="github">
   <diagram id="4_wPIU19J-Vtnea9aT2W" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="yPWJOrpFMq-nw3oGPfxG-10" value="1. Query DB for the file&lt;br&gt;2.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="465" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yPWJOrpFMq-nw3oGPfxG-11" value="Components:&lt;br&gt;1. RMS, create tag&lt;br&gt;2. DB, create tag, assign tag to specify file&lt;br&gt;3. Server RMX, Login DB, query DB to get the file list, file encryption, update DB to mark the encryption file, Logout DB&lt;br&gt;4. Azure&lt;br&gt;5. RMS Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="yPWJOrpFMq-nw3oGPfxG-11" value="Components:&lt;br&gt;1. CC, create policy&lt;br&gt;2. DB, create tag, assign tag to specify file&lt;br&gt;3. Server RMX, Login DB, query DB to get the file list, file encryption, update DB to mark the encryption file, Logout DB&lt;br&gt;4. Azure&lt;br&gt;5. RMS Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="575" width="650" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yPWJOrpFMq-nw3oGPfxG-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_cache;" vertex="1" parent="1">
@@ -32,7 +32,7 @@
           <mxGeometry x="130" y="16" width="62" height="64" as="geometry" />
         </mxCell>
         <mxCell id="yPWJOrpFMq-nw3oGPfxG-15" value="Create Policy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="38" width="90" height="20" as="geometry" />
+          <mxGeometry x="220" y="38" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
