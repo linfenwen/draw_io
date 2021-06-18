@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T09:24:52.934Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="PV0tGnmZyAw4j0CwdJvR" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-18T10:01:31.201Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="SamM3Oq53J0HlXCdxq1u" version="14.8.0" type="github" pages="2">
   <diagram id="4_wPIU19J-Vtnea9aT2W" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,6 +42,24 @@
       <root>
         <mxCell id="P761Dmwg08xVjzxNejbD-0" />
         <mxCell id="P761Dmwg08xVjzxNejbD-1" parent="P761Dmwg08xVjzxNejbD-0" />
+        <mxCell id="VutYbiOgklS93_XhlRYE-0" value="pw-is" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="527" y="200" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="VutYbiOgklS93_XhlRYE-1" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="140" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VutYbiOgklS93_XhlRYE-2" value="Azure" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_cache;" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="550" y="420" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VutYbiOgklS93_XhlRYE-3" value="RMS or CC" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="527" y="30" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VutYbiOgklS93_XhlRYE-4" value="" style="shape=mxgraph.cisco.computers_and_peripherals.web_browser;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="130" y="16" width="62" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VutYbiOgklS93_XhlRYE-5" value="Server RMX" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/metro-ui-dock/128/Administrative_Tools.png" vertex="1" parent="P761Dmwg08xVjzxNejbD-1">
+          <mxGeometry x="110" y="320" width="128" height="128" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
