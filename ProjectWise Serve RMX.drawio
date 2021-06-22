@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T01:29:11.453Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="F2bwtFnxQen7AZ1-9sI7" version="14.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-22T01:32:32.546Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="lK_WobqNCaM6877nC9QS" version="14.8.0" type="github" pages="3">
   <diagram id="4_wPIU19J-Vtnea9aT2W" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -94,9 +94,6 @@
         <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-6" value="File2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NJYS2_Jbsm1rBxOu-Ul6-3">
           <mxGeometry y="78" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-7" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
-          <mxGeometry x="440" y="224" width="120" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-8" value="Table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
           <mxGeometry x="640" y="160" width="120" height="120" as="geometry" />
         </mxCell>
@@ -188,6 +185,9 @@
         </mxCell>
         <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-43" value="Learning cost" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
           <mxGeometry x="80" y="640" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-45" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_sql_db;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
+          <mxGeometry x="440" y="280" width="80" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
