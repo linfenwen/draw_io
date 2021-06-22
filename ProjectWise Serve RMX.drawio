@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T01:32:32.546Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="lK_WobqNCaM6877nC9QS" version="14.8.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-22T01:34:13.966Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="icm0sR863UWl7Se7KUPz" version="14.8.0" type="github" pages="3">
   <diagram id="4_wPIU19J-Vtnea9aT2W" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
           <mxGeometry x="480" y="40" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-3" value="Directory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
-          <mxGeometry x="120" y="240" width="120" height="104" as="geometry">
+          <mxGeometry x="400" y="640" width="120" height="104" as="geometry">
             <mxRectangle x="350" y="350" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -188,6 +188,9 @@
         </mxCell>
         <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-45" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_sql_db;" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
           <mxGeometry x="440" y="280" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NJYS2_Jbsm1rBxOu-Ul6-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/700048-icon-89-document-file-sql-128.png" vertex="1" parent="F4XhwUCvHc7ZGAue_O-O-1">
+          <mxGeometry x="115" y="200" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
