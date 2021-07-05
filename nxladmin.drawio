@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:43:44.814Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.4" etag="N9FcL6Kv_ANDbuMd9geE" type="github"><diagram id="33odvQypNCBXZV-L8Peb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-05T08:09:11.244Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tiKAhWAFx1pRpvJT5EIU" version="14.8.4" type="github">
+  <diagram id="33odvQypNCBXZV-L8Peb" name="Protect">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-1" value="&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;1. retrieve protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;2. decode protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;3. analyze and retrieve protect rule items&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;4. retrieve protect tags&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;5. generate document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6. handle document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.1 retrieve protect rule items value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2 match protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.1 retrieve protect tags value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.2 generate nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.3 write protect tags into nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.4 update protect flag into DB&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.3 done document task&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-4" value="Retrieve Project Count" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-5" value="Project count &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-6" value="Retrieve Nxl Protect Rule" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-7" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-8" value="Match rules" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-9" value="Retrieve project protect tags" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-10" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-12" value="Project Phase&lt;br&gt;Document Phase:&lt;br&gt;Filter Document" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="405" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-13" value="DB data:&lt;br&gt;1. NXL Rule&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;1.1 Workarea rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.2 Document rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.3 Project rule&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;2. NXL Tag&lt;br&gt;3. NXL Flag" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
