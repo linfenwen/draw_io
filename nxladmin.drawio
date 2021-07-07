@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T08:09:11.244Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tiKAhWAFx1pRpvJT5EIU" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T02:45:46.716Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="IMFxx7Vc-CsmgZhOKeB2" version="14.8.4" type="github" pages="2">
   <diagram id="33odvQypNCBXZV-L8Peb" name="Protect">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,6 +40,14 @@
         <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-13" value="DB data:&lt;br&gt;1. NXL Rule&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;1.1 Workarea rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.2 Document rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.3 Project rule&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;2. NXL Tag&lt;br&gt;3. NXL Flag" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="480" width="160" height="100" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6qUaASt45KPLWOky1ew8" name="Page-2">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-0" />
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-1" parent="dx0CZkKFaG8ISxXaqfpL-0" />
       </root>
     </mxGraphModel>
   </diagram>
