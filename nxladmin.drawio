@@ -1,43 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T02:56:36.072Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Lv77P25rmDPMQ9btfS88" version="14.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-27T07:34:50.293Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="A27i-e2ugxR8JSzdW-Vm" version="14.9.2" type="github" pages="4">
   <diagram id="33odvQypNCBXZV-L8Peb" name="Protect">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-1" value="&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;1. retrieve protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;2. decode protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;3. analyze and retrieve protect rule items&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;4. retrieve protect tags&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;5. generate document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6. handle document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.1 retrieve protect rule items value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2 match protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.1 retrieve protect tags value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.2 generate nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.3 write protect tags into nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.4 update protect flag into DB&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.3 done document task&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-1" value="&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;1. retrieve protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;2. decode protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;3. analyze and retrieve protect rule items&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;4. retrieve protect tags&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;5. generate document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6. handle document tasks&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.1 retrieve protect rule items value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2 match protect rule&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.1 retrieve protect tags value&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.2 generate nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.3 write protect tags into nxl file&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.2.4 update protect flag into DB&lt;/div&gt;&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;6.3 done document task&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="530" y="20" width="270" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="100" y="750" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-4" value="Retrieve Project Count" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-4" value="Retrieve Project Count" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="160" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-5" value="Project count &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-5" value="Project count &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="240" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-6" value="Retrieve Nxl Protect Rule" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-6" value="Retrieve Nxl Protect Rule" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="360" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-7" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-7" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-8" value="Match rules" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-8" value="Match rules" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="50" y="560" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-9" value="Retrieve project protect tags" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-9" value="Retrieve project protect tags" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="640" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-10" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-10" value="Analyze and retrieve project protect rule items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="80" y="520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-12" value="Project Phase&lt;br&gt;Document Phase:&lt;br&gt;Filter Document" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-12" value="Project Phase&lt;br&gt;Document Phase:&lt;br&gt;Filter Document" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="545" y="405" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-13" value="DB data:&lt;br&gt;1. NXL Rule&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;1.1 Workarea rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.2 Document rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.3 Project rule&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;2. NXL Tag&lt;br&gt;3. NXL Flag" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="OJ0cd9qaKxAnYl0Ljkhy-13" value="DB data:&lt;br&gt;1. NXL Rule&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;1.1 Workarea rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.2 Document rule&lt;br&gt;&lt;/span&gt;&lt;span&gt;1.3 Project rule&lt;/span&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;2. NXL Tag&lt;br&gt;3. NXL Flag" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="480" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
@@ -48,16 +48,16 @@
       <root>
         <mxCell id="dx0CZkKFaG8ISxXaqfpL-0" />
         <mxCell id="dx0CZkKFaG8ISxXaqfpL-1" parent="dx0CZkKFaG8ISxXaqfpL-0" />
-        <mxCell id="dx0CZkKFaG8ISxXaqfpL-2" value="CPWProjectProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="dx0CZkKFaG8ISxXaqfpL-1">
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-2" value="CPWProjectProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="dx0CZkKFaG8ISxXaqfpL-1" vertex="1">
           <mxGeometry x="340" y="360" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="dx0CZkKFaG8ISxXaqfpL-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dx0CZkKFaG8ISxXaqfpL-2">
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dx0CZkKFaG8ISxXaqfpL-2" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="dx0CZkKFaG8ISxXaqfpL-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dx0CZkKFaG8ISxXaqfpL-2">
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="dx0CZkKFaG8ISxXaqfpL-2" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="dx0CZkKFaG8ISxXaqfpL-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dx0CZkKFaG8ISxXaqfpL-2">
+        <mxCell id="dx0CZkKFaG8ISxXaqfpL-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dx0CZkKFaG8ISxXaqfpL-2" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
@@ -68,17 +68,82 @@
       <root>
         <mxCell id="TyXPnSs-KF_HF9KPl3J9-0" />
         <mxCell id="TyXPnSs-KF_HF9KPl3J9-1" parent="TyXPnSs-KF_HF9KPl3J9-0" />
-        <mxCell id="TyXPnSs-KF_HF9KPl3J9-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="TyXPnSs-KF_HF9KPl3J9-1">
+        <mxCell id="TyXPnSs-KF_HF9KPl3J9-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="TyXPnSs-KF_HF9KPl3J9-1" vertex="1">
           <mxGeometry x="340" y="80" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TyXPnSs-KF_HF9KPl3J9-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="TyXPnSs-KF_HF9KPl3J9-1">
+        <mxCell id="TyXPnSs-KF_HF9KPl3J9-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="TyXPnSs-KF_HF9KPl3J9-1" vertex="1">
           <mxGeometry x="260" y="640" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TyXPnSs-KF_HF9KPl3J9-4" value="Init phrase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="TyXPnSs-KF_HF9KPl3J9-1">
+        <mxCell id="TyXPnSs-KF_HF9KPl3J9-4" value="Init phrase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="TyXPnSs-KF_HF9KPl3J9-1" vertex="1">
           <mxGeometry x="280" y="240" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TyXPnSs-KF_HF9KPl3J9-6" value="Init phrase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="TyXPnSs-KF_HF9KPl3J9-1">
+        <mxCell id="TyXPnSs-KF_HF9KPl3J9-6" value="Init phrase" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="TyXPnSs-KF_HF9KPl3J9-1" vertex="1">
           <mxGeometry x="280" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wXzCoPwmX77wVPYjfb1B" name="Page-4">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="su863Iz8fwG6qxGvEHGt-0" />
+        <mxCell id="su863Iz8fwG6qxGvEHGt-1" parent="su863Iz8fwG6qxGvEHGt-0" />
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-8" value="Init Work&amp;nbsp; Environment" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-9" value="Retrieve Project List" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-10" value="Dispatch Command" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-11" value="&lt;span style=&quot;text-align: left&quot;&gt;Register&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="160" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-12" value="&lt;span style=&quot;text-align: left&quot;&gt;Protect&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-13" value="&lt;span style=&quot;text-align: left&quot;&gt;Unregister&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-14" value="&lt;span style=&quot;text-align: left&quot;&gt;Filter Documents&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-15" value="&lt;span style=&quot;text-align: left&quot;&gt;Protect Files&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-16" value="&lt;span style=&quot;text-align: left&quot;&gt;Filter Documents&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-17" value="&lt;span style=&quot;text-align: left&quot;&gt;Decrypt Files&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-18" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Empty Protect Rules&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-19" value="&lt;span style=&quot;text-align: left&quot;&gt;Filter Workares&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="160" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-20" value="&lt;span style=&quot;text-align: left&quot;&gt;Set Protect Rule&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="160" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-21" value="&lt;span style=&quot;text-align: left&quot;&gt;Enable Protect Flag&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="160" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-22" value="&lt;span style=&quot;text-align: left&quot;&gt;Backup Files&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="320" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-24" value="Parse Config File" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACtj7_SFAxZ3XV6Lj0k0-25" value="Init PWSDK" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="su863Iz8fwG6qxGvEHGt-1">
+          <mxGeometry x="480" y="280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
