@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T06:55:19.401Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" version="16.5.6" etag="oX8Awj0QdvNbmnQmLXEn" type="github"><diagram id="s_TyGhOsRMtKrXUJ4zZ_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-18T09:52:12.955Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="hpG3EIwcw083GZym7n-7" version="16.5.6" type="github">
+  <diagram id="s_TyGhOsRMtKrXUJ4zZ_" name="Page-1">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-1" value="nxrmserv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-2" value="PDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-3" value="DAP-Plugin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-4" value="DAP-Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-8" value="DAP-Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-9" value="RMS-Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-10" value="PW-Bridge Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-11" value="PW-Core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw0MRtEXhQvHR3oKC3qB-12" value="ProjectWise Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
