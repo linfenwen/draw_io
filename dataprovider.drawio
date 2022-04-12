@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T06:26:07.567Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="_-WVpmEecZIa2xxX9ZOc" version="17.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-12T09:08:12.857Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="6zTB4qrWz16WmHy3CeWW" version="17.4.2" type="github" pages="2">
   <diagram id="ccaD3eCgU0ZAg9T4dlIk" name="Page-1">
     <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -96,6 +96,24 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;:CPWQuery&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="81" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;:CPWDataMgr&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-4" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;:&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CPWDataSource&lt;/font&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-5" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;:&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CPWUser&lt;/font&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;:&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CPWUserList&lt;/font&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="85jlKQ4MJYQpzO2J50L5-7" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;:&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CPWGroup&lt;/font&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dashed=1;fontFamily=Verdana;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="80" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
