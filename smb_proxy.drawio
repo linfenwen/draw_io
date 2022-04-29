@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T09:24:28.849Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hLDjkkbXrmlB54ABj5XL" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T09:31:41.862Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="QG06LERQvHwk0qjTU47o" version="17.5.0" type="github" pages="3">
   <diagram id="ZYLZBGIl9L_bCLlOh7m0" name="Page-1">
     <mxGraphModel dx="942" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,8 +61,70 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="LRYhNeckzoFMCYttEEpE" name="Page-2">
+  <diagram name="Page-1.1" id="2ScnUmAhWVBWP4T250dI">
     <mxGraphModel dx="942" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="so2DKitDjMCvh4elJzYB-0" />
+        <mxCell id="so2DKitDjMCvh4elJzYB-1" parent="so2DKitDjMCvh4elJzYB-0" />
+        <mxCell id="so2DKitDjMCvh4elJzYB-2" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="99" y="157" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-3" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.proxy_server;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="370" y="158" width="80" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-4" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="650" y="158" width="50" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="178" as="sourcePoint" />
+            <mxPoint x="366" y="178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="180" as="sourcePoint" />
+            <mxPoint x="640" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-7" value="" style="endArrow=classic;html=1;rounded=0;jumpStyle=arc;dashed=1;" edge="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-8" value="" style="endArrow=classic;html=1;rounded=0;jumpStyle=arc;dashed=1;" edge="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="363" y="224" as="sourcePoint" />
+            <mxPoint x="183" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-9" value="SMB Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="213" y="153" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-10" value="Forward SMB Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="468" y="155" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-11" value="SMB Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="492" y="201" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-12" value="Forward SMB Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="201" y="200" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-13" value="SMB Proxy Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="355" y="246" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-14" value="SMB File Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="627" y="247" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="so2DKitDjMCvh4elJzYB-15" value="Client User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="so2DKitDjMCvh4elJzYB-1">
+          <mxGeometry x="98" y="247" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LRYhNeckzoFMCYttEEpE" name="Page-2">
+    <mxGraphModel dx="1256" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
