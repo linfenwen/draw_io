@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T08:04:08.400Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="S1uLFpu0Gm2JJBD7fIdr" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T08:04:48.673Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="EZwlKdu32_y23Zj-dmFU" version="17.5.0" type="github" pages="2">
   <diagram id="ZYLZBGIl9L_bCLlOh7m0" name="Page-1">
     <mxGraphModel dx="942" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,6 +68,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="bfArrZru7GMlIPtrp18p-3" value=":SMB Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bfArrZru7GMlIPtrp18p-3">
+          <mxGeometry x="46" y="80" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bfArrZru7GMlIPtrp18p-4" value=":SMB Proxy&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="100" height="300" as="geometry" />
