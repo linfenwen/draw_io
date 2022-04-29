@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T09:13:51.190Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jmUJ5speM0jKsie5leM1" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T09:20:57.198Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NuQAIPZHAeAr5vV110VB" version="17.5.0" type="github" pages="2">
   <diagram id="ZYLZBGIl9L_bCLlOh7m0" name="Page-1">
     <mxGraphModel dx="942" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,13 +125,13 @@
             <mxPoint x="215.5" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-16" value="Open File test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-16" value="Read File test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="109" y="359" as="sourcePoint" />
             <mxPoint x="207" y="359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-17" value="SMB Request: Open Fle test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-17" value="SMB Request: read Fle test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="216" y="376" as="sourcePoint" />
             <mxPoint x="446" y="375.91999999999996" as="targetPoint" />
@@ -148,13 +148,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-20" value="SMB Request: Open Fle test.txt.nxl" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-20" value="SMB Request: read file test.txt.nxl" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="455" y="456" as="sourcePoint" />
             <mxPoint x="685" y="455.91999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-21" value="SMB Response: Open test.txt.nxl&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-21" value="SMB Response: read test.txt.nxl&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="685" y="485" as="sourcePoint" />
             <mxPoint x="454.5" y="485" as="targetPoint" />
@@ -177,16 +177,45 @@
             <mxPoint x="215.5" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-25" value="Edit File test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-25" value="Write File test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="108" y="617" as="sourcePoint" />
             <mxPoint x="206" y="617" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bfArrZru7GMlIPtrp18p-26" value="SMB Request: Edit Fle test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="bfArrZru7GMlIPtrp18p-26" value="SMB Request: write file test.txt" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="217" y="629" as="sourcePoint" />
             <mxPoint x="447" y="628.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="659" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-28" value="Encrypt Data, Append .nxl, Update Size" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;jumpStyle=arc;" edge="1" target="bfArrZru7GMlIPtrp18p-27" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="639" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="485" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-29" value="SMB Request: write encrypted data to test.txt.nxl" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;jumpStyle=arc;entryX=0.5;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="455" y="720" as="sourcePoint" />
+            <mxPoint x="685" y="719.9200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-30" value="SMB Response: write test.txt.nxl&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="752" as="sourcePoint" />
+            <mxPoint x="454.5" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-31" value="SMB Response: write test.txt" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="778" as="sourcePoint" />
+            <mxPoint x="215.5" y="778" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
