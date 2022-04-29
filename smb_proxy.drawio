@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T09:20:57.198Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NuQAIPZHAeAr5vV110VB" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T09:24:28.849Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hLDjkkbXrmlB54ABj5XL" version="17.5.0" type="github" pages="2">
   <diagram id="ZYLZBGIl9L_bCLlOh7m0" name="Page-1">
     <mxGraphModel dx="942" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,6 +216,39 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="444" y="778" as="sourcePoint" />
             <mxPoint x="215.5" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="131" as="sourcePoint" />
+            <mxPoint x="740" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-34" value="Access Directory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bfArrZru7GMlIPtrp18p-33">
+          <mxGeometry x="-0.1967" y="2" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="332" as="sourcePoint" />
+            <mxPoint x="739" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-36" value="Read File test.txt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bfArrZru7GMlIPtrp18p-35">
+          <mxGeometry x="-0.1967" y="2" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-37" value="" style="endArrow=none;dashed=1;html=1;rounded=0;jumpStyle=arc;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="127" y="592" as="sourcePoint" />
+            <mxPoint x="737" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfArrZru7GMlIPtrp18p-38" value="Write File test.txt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bfArrZru7GMlIPtrp18p-37">
+          <mxGeometry x="-0.1967" y="2" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
